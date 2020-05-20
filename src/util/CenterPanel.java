@@ -51,7 +51,7 @@ public class CenterPanel extends JPanel{
 		
 		/**
 		 * 判断需要显示的面板是否是WorkingPanel
-		 * 是 则需要用updateDate()来让界面显示和数据库同步
+		 * 是 则需要用updateData()来让界面显示和数据库同步
 		 */
 		if(p instanceof WorkingPanel) {
 			((WorkingPanel) p).updateData();
